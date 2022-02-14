@@ -33,6 +33,7 @@ const TableList = ({ columns = [] }) => {
                       sortType === "desc" || sortType === "" ? "asc" : "desc"
                     )
                   }
+                  className="header-table"
                 >
                   {col.label}{" "}
                   {columnSorted === col.accessor ? (
