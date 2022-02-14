@@ -36,6 +36,7 @@ const useApiCallSize = () => {
 
   useEffect(() => {
     fetchSize();
+    // eslint-disable-next-line
   }, []);
 
   return [loadingSize, sizeList, setSizeList, storeSize, loadData];

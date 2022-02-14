@@ -49,6 +49,7 @@ const useApiCallList = () => {
 
   useEffect(() => {
     fetchListData();
+    // eslint-disable-next-line
   }, []);
 
   return [

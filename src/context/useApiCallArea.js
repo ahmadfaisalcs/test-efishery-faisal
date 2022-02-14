@@ -36,6 +36,7 @@ const useApiCallArea = () => {
 
   useEffect(() => {
     fetchArea();
+    // eslint-disable-next-line
   }, []);
 
   return [loadingArea, areaList, setAreaList, storeArea, loadData];
